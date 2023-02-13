@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Game tamagotchi</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+  </head>
+  <body>
+  <div id="container">
+    <div id="containerImg">
+      <img src="img/nivel1.JPG" class="pet" id="pet" alt="imagen">
+    </div>
+    <div class="percents"><h2><strong>Status</strong></h2>
+      satisfecho:<div id="satisfecho" class="barra"> 100%</div>
+      aseado:<div id="aseado" class="barra"> 100%</div>
+      tranquilo:<div id="tranquilo" class="barra"> 100%</div>
+      alegre:<div id="alegre" class="barra"> 100%</div>
+      sociable:<div id="sociable" class="barra"> 100%</div>
+    </div>
+    <div id="containerBotones">
+      <p><span class="btn" onclick="Comer()">Comer</span></p>
+      <p><span class="btn" onclick="Bañar()">Bañar</span></p>
+      <p><span class="btn" onclick="Dormir()">Dormir</span></p>
+      <p><span class="btn" onclick="Jugar()">Jugar</span></p>
+      <p><span class="btn" onclick="Conversar()">Conversar</span></p>
+    </div>
+    <h3><div id="msg"></div></h3>
+  </div>
+  <script src="script.js"></script>
+  </body>
+</html>
